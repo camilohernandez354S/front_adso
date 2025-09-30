@@ -29,7 +29,7 @@ const inputSX = {
 
 const ListaAprendices = () => {
   //  const API_BASE = "http://localhost:8080/api/v1/aprendiz";
-  const API_BASE = "https://back_adso2.railway.internal/api/v1/aprendiz"
+  const API_BASE = "https://backadso2-production-9f1a.up.railway.app/api/v1/aprendiz"
 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
